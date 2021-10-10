@@ -37,7 +37,7 @@
                     class="form-control"
                     placeholder="이름을 입력하세요"
             >
-            <div class="field-error" th:erros="*{itemName}">상품명 오류</div>
+            <div class="field-error" th:errors="*{itemName}">상품명 오류</div>
         </div>
 
         <div>
@@ -49,7 +49,7 @@
                     class="form-control"
                     placeholder="가격을 입력하세요"
             >
-            <div class="field-error" th:erros="*{price}">가격 오류</div>
+            <div class="field-error" th:errors="*{price}">가격 오류</div>
         </div>
 
         <div>
